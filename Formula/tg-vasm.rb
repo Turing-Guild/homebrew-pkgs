@@ -3,7 +3,7 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class TgVasm < Formula
 	desc "TuringGuild VASM - VASM configured for all TuringGuild-related projects"
-	homepage "https://github.com/cogsandsquigs/turingguild-homebrew"
+	homepage "https://github.com/turing-guild/homebrew-pkgs"
 	version "1.0.0"
 	# TODO: use a proxy/hosting service of some sort for this, as the website may go down and some ISPs will flag this
 	url "http://www.ibaug.de/vasm/vasm6502.zip"
