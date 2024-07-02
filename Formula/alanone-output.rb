@@ -4,8 +4,8 @@ class Alanone < Formula
 	desc "The CLI that interfaces with the Alan One computer."
 	homepage "https://github.com/turing-guild/alanone"
 	version "1.1.5"
-	url "https://registry.npmjs.org/@turingguild/alanone/-/alanone-1.1.5.tgz"
-	sha256 "7baa46a29dd5de3af321a56207edbc0a03f157c1fabd31eebbdf6ebf1a4a1e2a"
+	url "https://registry.npmjs.org/@turingguild/alanone-output/-/alanone-output-1.0.0.tgz"
+	sha256 "b8a3ebe8337edca9e5fdbe7a0ea5dfb5f3c58e558a319ab056d74869c1c174f7"
 	license "ISC" # or the appropriate license
   
 	depends_on "node"
@@ -16,6 +16,6 @@ class Alanone < Formula
 	end
   
 	test do
-	  system "#{bin}/alanone"
+	  system "#{bin}/alanone-output"
 	end
   end
