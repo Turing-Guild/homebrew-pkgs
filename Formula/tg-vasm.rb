@@ -26,12 +26,6 @@ class TgVasm < Formula
 			#{bin}/vasm6502_oldstyle -Fbin -dotdir -c02 "$@" -L "${1%.s}.lst"
 		EOS
 
-
-		# # remove quarantaine flag
-		# if RUBY_PLATFORM =~ /darwin/
-		# 	system "xattr", "-r", "-d", "com.apple.quarantine", "#{bin}/vasm6502_oldstyle"
-		# end
-
 		# Make sure the script is executable
 		(bin/"tg-vasm").chmod 0755
 	end
