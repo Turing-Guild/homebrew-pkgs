@@ -7,7 +7,7 @@ This is meant to be mostly a scratchpad for myself, as well as a guide for anyon
 Run
 
 ```
-HOMEBREW_NO_INSTALL_FROM_API=1 brew install --build-from-source --debug --verbose ./Formula/<package>.rb
+brew install --build-from-source --debug --verbose ./Formula/<package>.rb
 ```
 
 ## Updating a package
