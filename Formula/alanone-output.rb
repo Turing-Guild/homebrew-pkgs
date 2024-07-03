@@ -3,7 +3,6 @@ require "language/node"
 class AlanoneOutput < Formula
 	desc "The CLI that interfaces with the Alan One computer."
 	homepage "https://github.com/turing-guild/alanone"
-	version "1.0.0"
 	url "https://registry.npmjs.org/@turingguild/alanone-output/-/alanone-output-1.0.0.tgz"
 	sha256 "b8a3ebe8337edca9e5fdbe7a0ea5dfb5f3c58e558a319ab056d74869c1c174f7"
 	license "ISC" # or the appropriate license

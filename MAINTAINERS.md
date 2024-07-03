@@ -37,6 +37,9 @@ The output hash should replace the `sha256` field in the formula file.
 
 Edit the corresponding `.rb` file in the `Formula` directory and update the `version` field. For example, if the current `version` is `1.2.3` but the new URL/binary/package has `version` `1.2.4`, update it to `1.2.4`.
 
+> [!NOTE]
+> For some packages (like ones from NPM), the version is already in the URL, and does not need to be updated. Just by updating the URL and hash, the version is updated.
+
 Ideally, the version in the formula should be the same as the version of the package. If the package version is `v1.2.4`, the version in the formula should be `1.2.4`. As of writing, the version for `tg-vasm` is `1.8f`, so the version in the formula is `1.8f`.
 
 ### 4. Test the package locally
