@@ -47,8 +47,12 @@ Test the package locally as described in [Testing a package locally](#testing-a-
 
 Commit the changes and push them to the repository.
 
-### 6. Tag the new version of the package.
+### 6. Tag the new version of the package and push the tags.
+
+Git tags are used to track the versions of the packages. This is mostly for historical purposes, but in the future could be used so Homebrew can track the versions of the packages.
 
 Create a new tag for the package. The tag should be of the form `<updated package name>-v<version>`. If there are multiple updated packages, there should be a tag for each updated package.
 
 For example, if `tg-vasm` and `alanone` were updated to `1.9f` and `1.2.4` respectively, the tags would be `tg-vasm-v1.8f` and `alanone-v1.2.4`.
+
+Remember to add a tag message!
