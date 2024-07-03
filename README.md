@@ -13,7 +13,7 @@ This repository contains the formulae for the Homebrew packages that are require
 First, tap the repository:
 
 ```sh
-brew tap turingguild/homebrew-pkgs
+brew tap turing-guild/pkgs
 ```
 
 Then, install the package you want. For example, to install `tg-vasm`, run the following command:
