@@ -21,17 +21,17 @@ class TgVasm < Formula
 		bin.install "#{os}/vasm6502_oldstyle"
 
 		# Install the shell script
-		(bin/"tg-vasm").write <<~EOS
+		(bin/"vasm").write <<~EOS
 			#!/bin/bash
 			#{bin}/vasm6502_oldstyle -Fbin -dotdir -c02 "$@" -L "${1%.s}.lst"
 		EOS
 
 		# Make sure the script is executable
-		(bin/"tg-vasm").chmod 0755
+		(bin/"vasm").chmod 0755
 	end
 
 	test do
-		assert_predicate bin/"tg-vasm", :exist?
+		assert_predicate bin/"vasm", :exist?
 		assert_predicate bin/"vasm6502_oldstyle", :exist?
 	end
 end
