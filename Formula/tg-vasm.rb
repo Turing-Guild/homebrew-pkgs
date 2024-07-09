@@ -4,7 +4,7 @@
 class TgVasm < Formula
 	desc "TuringGuild VASM - VASM configured for all TuringGuild-related projects"
 	homepage "http://sun.hasenbraten.de/vasm/"
-	version "1.8f"
+	version "1.8f-1"
 	# TODO: use a proxy/hosting service of some sort for this, as the website may go down and some ISPs will flag this
 	url "http://www.ibaug.de/vasm/vasm6502.zip"
 	sha256 "9a3d707ec5fe9923efb73dfd73c8721fff16ac7e1f49fb509649dcef0fd16c66"
