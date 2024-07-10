@@ -1,10 +1,10 @@
 require "language/node"
 
 class AlanoneOutput < Formula
-	desc "The CLI that interfaces with the Alan One computer"
+	desc "An output monitor for the Alan One CLI"
 	homepage "https://www.npmjs.com/package/@turingguild/alanone-output"
-	url "https://registry.npmjs.org/@turingguild/alanone-output/-/alanone-output-1.0.7.tgz"
-	sha256 "4770e1d460ae1ecae028fb48e39c25631102cb18a819e5bf41af3f3800c1aa34"
+	url "https://registry.npmjs.org/@turingguild/alanone-output/-/alanone-output-1.0.8.tgz"
+	sha256 "ffff4a55c877fa0340121223160f4312dd220a171688c2a04c424aadd3bc5440"
 	license "ISC" # or the appropriate license
   
 	depends_on "node"
