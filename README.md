@@ -16,8 +16,10 @@ First, tap the repository:
 brew tap turing-guild/pkgs
 ```
 
-Then, install the package you want. For example, to install `tg-vasm`, run the following command:
+Then, install the package you want. by running the following commands:
 
 ```sh
+brew install alanone
+brew install alanone-output
 brew install tg-vasm
 ```
