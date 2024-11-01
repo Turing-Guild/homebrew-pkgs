@@ -3,8 +3,8 @@ require "language/node"
 class Serialmonitor < Formula
 	desc "Generic serialmonitor for reading and write to a serial port"
 	homepage "https://www.npmjs.com/package/@turingguild/serialmonitor"
-  url "https://registry.npmjs.org/@turingguild/serialmonitor/-/serialmonitor-1.0.0.tgz"
-	sha256 "65fa474597d1325fffff7bdc3be9ff6c257bf5114d8a90f4e1ce91051fe6c7fe"
+  url "https://registry.npmjs.org/@turingguild/serialmonitor/-/serialmonitor-1.0.2.tgz"
+	sha256 "628a6ed53a48b0af1493fc9db3e5e488d904d559125732c8c1102762c5cffe2a"
 	license "ISC" # or the appropriate license
   
 	depends_on "node"
@@ -15,6 +15,6 @@ class Serialmonitor < Formula
 	end
   
 	test do
-		system "#{bin}/serialmonitor"
+		system "#{bin}/serialmonitor -v"
 	end
 end
