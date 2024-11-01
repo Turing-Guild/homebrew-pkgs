@@ -1,6 +1,6 @@
 require "language/node"
 
-class SerialMonitor < Formula
+class Serialmonitor < Formula
 	desc "Generic serialmonitor for reading and write to a serial port"
 	homepage "https://www.npmjs.com/package/@turingguild/serialmonitor"
   url "https://registry.npmjs.org/@turingguild/serialmonitor/-/serialmonitor-1.0.0.tgz"
