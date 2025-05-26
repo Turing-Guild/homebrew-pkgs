@@ -3,8 +3,8 @@ require "language/node"
 class Alanone < Formula
 	desc "The CLI that interfaces with the Alan One computer"
 	homepage "https://www.npmjs.com/package/@turingguild/alanone"
-  url "https://registry.npmjs.org/@turingguild/alanone/-/alanone-1.3.2.tgz"
-  sha256 "57f1bc2b87d6bfb21817155aea9192ffc25c067de13a9fca48a1af4800d922dd"
+  url "https://registry.npmjs.org/@turingguild/alanone/-/alanone-1.3.3.tgz"
+  sha256 "022f5f36c1f9e393baa58f730aba92286fce18413d75f77d33f8ec6748debb94"
 	license "ISC" # or the appropriate license
   
 	depends_on "node"
