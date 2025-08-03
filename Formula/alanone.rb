@@ -9,9 +9,15 @@ class Alanone < Formula
 
   depends_on "node"
 
-  # Tell Homebrew explicitly: we don't need a compiler
+  def pour_bottle?
+    true
+  end
+
+  def needs_compiler?
+    false
+  end
+
   def install
-    ENV["HOMEBREW_NO_COMPILER_CHECK"] = "1"
     system "npm", "install", *Language::Node.std_npm_install_args(libexec)
     bin.install_symlink Dir["#{libexec}/bin/*"]
   end
@@ -20,3 +26,4 @@ class Alanone < Formula
     system "#{bin}/alanone", "--version"
   end
 end
+
