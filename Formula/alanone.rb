@@ -1,6 +1,7 @@
 class Alanone < Formula
   desc "The CLI that interfaces with the Alan One computer"
   homepage "https://www.npmjs.com/package/@turingguild/alanone"
+  url "https://registry.npmjs.org/@turingguild/alanone/-/alanone-1.4.1.tgz"
   version "1.4.1"
   license "ISC"
 
