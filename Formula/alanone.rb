@@ -8,6 +8,7 @@ class Alanone < Formula
 	license "ISC" # or the appropriate license
   
 	depends_on "node"
+  uses_from_macos "ruby"
   
 	def install
 		system "npm", "install", *Language::Node.std_npm_install_args(libexec)
